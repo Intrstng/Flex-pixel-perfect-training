@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("../fonts/MYRIADPRO-REGULAR.OTF");
+}
+
+@font-face {
+    font-family: "Proxima";
+    src: url("../fonts/proximanova-regular.otf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.team {
+    width: 1200px;
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.team__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0 80px 0;
+}
+
+                                                                             
+
+.team__subtitle {
+    font-family: "Myriad Pro";
+    font-size: 30px;
+    line-height: 50px;
+    padding-top: 49px;
+    margin: 0 0 5px 0;
+    color: #303030;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.team__line {
+    width: 184px;
+    height: 3px;
+    background-color: #303030;
+    margin: 0 auto 25px;
+}
+
+.team__text {
+    font-family: "Myriad Pro";
+    width: 510px;
+    text-align: center;
+    text-indent: 28px;
+    margin: 0 auto 50px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #5a5a5a;
+}
+
+
+.team__cards {
+    min-width: 210px;
+    min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+                        justify-content: space-around;
+    margin: 0;                   
+    padding: 14px 25px 18px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4px 0px rgba(0, 1, 1, 0.2);
+  }
+  
+
+  .team__name {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Myriad Pro";
+    color: rgb(48, 48, 48);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+
+.team__title {
+        font-size: 12px;
+        font-family: "Georgia";
+        color: rgb(48, 48, 48);
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 15px;
+}
+
+.team__icon-row {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+
+}
+
+.team__icon-row a {
+    font-size: 18px;
+    color:#5a5a5a;
+    margin-right: 20px;
+}
+
+.team__icon-row a:last-child {
+    margin-right: 0;
+}
